@@ -4,8 +4,9 @@
 
 rm -fR ~/.norge
 git clone https://github.com/kjbreil/init.git ~/.norge
-cd ~/.norge
 
-./ssh.sh
-./zsh.sh
-./links.sh
+
+$HOME/.norge/ssh.sh
+$HOME/.norge/zsh.sh
+$HOME/.norge/links.sh
+
