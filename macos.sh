@@ -1,4 +1,4 @@
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/kjbreil/pubinit/master/init.sh)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/kjbreil/pubinit/master/macos.sh)"
 
 unset xcode
 
