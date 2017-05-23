@@ -18,8 +18,5 @@ if xcode-select --install 2>&1 | grep installed
     fi
 fi
 
-if [ $xcode ]
-then
-  rm -fR $HOME/.norge
-  git clone https://github.com/kjbreil/init.git $HOME/.norge
-fi
+rm -fR $HOME/.norge
+git clone https://github.com/kjbreil/init.git $HOME/.norge
