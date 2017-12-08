@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/kjbreil/pubinit/master/unis.sh)"
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/kjbreil/pubinit/master/unix.sh)"
 
 rm -fR $HOME/.norge
 git clone https://github.com/kjbreil/init.git $HOME/.norge
