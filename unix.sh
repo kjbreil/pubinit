@@ -5,6 +5,6 @@
 rm -fR $HOME/.norge
 git clone --recurse-submodules -j8 https://github.com/kjbreil/init.git $HOME/.norge
 
-$HOME/.norge/bin/pre-zsh.sh
+$HOME/.norge/bin/unix.sh
 
 # git remote set-url origin git@github.com:kjbreil/init.git
